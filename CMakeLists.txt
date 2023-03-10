@@ -10,6 +10,7 @@ cmake_minimum_required(VERSION 3.14)
 # Optional options include 'VERSION', 'DESCRIPTION', 'LANGUAGES'
 # and 'HOMEPAGE_URL'
 project(cmake_tutorial VERSION 1.0
+    LANGUAGES CXX
     DESCRIPTION "A tutorial on how to use CMake for C++ projects")
 
 # Supposing you are building an application, specify an executable:
